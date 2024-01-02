@@ -3,16 +3,47 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Himanshu's nifty tools</title>
+    <title>Himanshu's Nifty Tools</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script> -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-<p>
-    <a href="convert.html">Zoom Chat Summariser</a>
-</p>
-    
+<!-- Banner Image -->
+<div class="container-fluid p-0">
+    <img src="images/monastry_1024px_451px.jpg" class="img-fluid w-100 banner" alt="Banner">
+</div>
+
+<!-- Card Layout for Links -->
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Zoom Chat Summariser</h5>
+                    <p class="card-text">Tool to summarize Zoom meeting transcript</p>
+                    <a href="tools/convert.html" class="btn btn-primary">Zoom Chat Summariser</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat for other cards (total 9 cards for 3x3 layout) -->
+        <!-- Add your other links in similar card format here -->
+
+    </div>
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+<style>
+    .banner {
+        height: 450px;
+        object-fit: cover;
+    }
+</style>
 </html>
